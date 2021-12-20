@@ -28,7 +28,7 @@ class RestService {
 	@GetMapping("/greet")
 	@ResponseBody
 	public String getGreetings() {
-		return "Hello "+new Date();
+		return "Hello !"+new Date();
 	}
 	
 }
